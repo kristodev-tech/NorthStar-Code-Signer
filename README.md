@@ -83,4 +83,4 @@ Timestamp requests and Windows trust/revocation checks can use the network. Ther
 - [Security reporting](SECURITY.md)
 - [License](LICENSE)
 
-Read `docs/Build_Verification.json` for the exact checks performed on this package. Windows signing, provider timestamping and installer execution require Windows verification before labeling a GitHub release production-ready.
+Read `docs/Build_Verification.json` for the exact checks performed on this package. Windows signing, provider timestamping and installer execution require Windows verification.
