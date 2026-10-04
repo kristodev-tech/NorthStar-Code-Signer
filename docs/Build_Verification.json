@@ -1,0 +1,19 @@
+{
+  "version": "2.0.1",
+  "build_environment": "Linux with Mono C# compiler 6.8",
+  "compiler_warnings_as_errors": true,
+  "compilation_passed": true,
+  "binary_format": "Windows PE32 GUI, CLR4, AnyCPU",
+  "binary_sha256": "1aee215a277715b26a007d8b998bc73c142a82a8d1e1928fad2514636748bec6",
+  "validation_report": "Validation_Checks.json",
+  "validation_checks_passed": true,
+  "ui_smoke_execution": false,
+  "ui_visual_review": "Unchanged layout previously reviewed in 2.0.0; source snapshots retained. No new native Windows UI verification in this patch.",
+  "windows_native_execution": false,
+  "windows_authenticode_tests_executed": false,
+  "timestamp_provider_tested": false,
+  "installer_compiled_or_executed": false,
+  "self_test_runtime_note": "Identical executable bytes tested in a scratch copy without Windows startup config, because the extracted Mono runtime lacks standard machine configuration. The Windows .exe.config is supplied in the final package.",
+  "required_before_public_release": "Run 02_run_checks.bat on Windows, inspect DPI/layout and test timestamping/installer per RELEASE_CHECKLIST.md.",
+  "regression_tests": "Native result classification accepts only zero and 0x800B0109; representative unsafe trust codes rejected."
+}
